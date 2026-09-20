@@ -15,7 +15,7 @@ function iraDashboard(usuario, clave) {
   const esValido = usuario === USUARIO_VALIDO && clave === CLAVE_VALIDA;
 
   if (esValido) {
-    window.location.href = "dashboard.html";
+    window.location.href = "catalogo.html";
   } else {
     mostrarError(true);
   }
